@@ -1,0 +1,26 @@
+{
+	"name": "IPFS CDN",
+	"description": "IPFS emulation of Content Delivery Networks",
+	"author": "Lukas Gutschmidt",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"permissions": [
+		"tabs",
+		"webRequest",
+		"webRequestBlocking",
+		"<all_urls>"
+	],
+	"background": {
+		"scripts": [
+			"resources.js",
+			"common.js"
+		]
+	},
+	"browser_action": {
+		"default_icon": {
+			"16": "data/icons/16.png",
+			"32": "data/icons/32.png",
+			"64": "data/icons/64.png"
+		}
+	}
+}
